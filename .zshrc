@@ -15,3 +15,8 @@ export PS1="[%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%} %{$f
 
 # Aliases
 alias ls='ls -lG'
+alias gs='git status'
+alias gp='git push'
+alias gpl='git pull'
+alias gaa='git add -A'
+alias gcm='git commit -m '

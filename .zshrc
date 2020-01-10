@@ -28,6 +28,8 @@ export VIRTUALENVWRAPPER_SCRIPT=~/Library/Python/3.7/bin/virtualenvwrapper.sh
 source ~/Library/Python/3.7/bin/virtualenvwrapper_lazy.sh
 
 # Aliases
+alias vpn-start='VBoxManage startvm vpn-only --type headless'
+alias vpn-stop='VBoxManage controlvm vpn-only poweroff soft'
 alias ls='ls -lG'
 alias gs='git status'
 alias gp='git push'

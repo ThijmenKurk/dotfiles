@@ -18,6 +18,7 @@ export PATH=$PATH:~/Library/Python/3.7/bin
 
 # Virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export VIRTUALENVWRAPPER_SCRIPT=~/Library/Python/3.7/bin/virtualenvwrapper.sh
 source ~/Library/Python/3.7/bin/virtualenvwrapper_lazy.sh
 

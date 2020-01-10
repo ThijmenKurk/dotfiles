@@ -15,6 +15,9 @@ setopt correctall
 # Prompt
 export PS1="[%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%} %{$fg[yellow]%}%~%{$reset_color%}] $ "
 
+# VSCode
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+
 # Python3.7 user packages
 export PATH=$PATH:~/Library/Python/3.7/bin
 

@@ -37,16 +37,17 @@ zle -N gohome gohome
 bindkey ^h "gohome"
 
 # Aliases
-cs() { builtin cd "$1" && ls; }
 
 alias vpn-start='VBoxManage startvm vpn-only --type headless'
 alias vpn-stop='VBoxManage controlvm vpn-only poweroff soft'
 alias ls='ls -lG'
 alias grep='grep --color=always'
-alias cd='cs'
 alias gs='git status'
 alias gp='git push'
 alias gpl='git pull'
 alias gaa='git add -A'
 alias gcm='git commit -m '
 alias gd='git diff'
+
+cs() { builtin cd "$1" && ls; }
+alias cd='cs'
